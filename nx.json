@@ -18,5 +18,32 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "shop": {
+      "tags": []
+    },
+    "shop-e2e": {
+      "tags": [],
+      "implicitDependencies": ["shop"]
+    },
+    "warehouse": {
+      "tags": []
+    },
+    "warehouse-e2e": {
+      "tags": [],
+      "implicitDependencies": ["warehouse"]
+    },
+    "api": {
+      "tags": []
+    },
+    "shared-domain": {
+      "tags": []
+    },
+    "shared-ui": {
+      "tags": []
+    },
+    "shared-data": {
+      "tags": []
+    }
+  }
 }
